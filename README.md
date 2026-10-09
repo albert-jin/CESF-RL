@@ -144,6 +144,6 @@ docs/            Implementation details, evaluation guide, provenance
 
 ## Dependencies and attribution
 
-The code-augmented model and original prompt/parser conventions build on `Github.CoRT`. The evaluation ecosystem includes `vLLM`, `Transformers`, `Math-Verify`, `DeepScaler`, and `SymPy`. Checkpoints, benchmark datasets, and upstream repositories are not bundled here. See [third-party notices](THIRD_PARTY_NOTICES.md).
+The code-augmented model and original prompt/parser conventions build on `Github.CoRT`. The evaluation ecosystem includes `vLLM`, `Transformers`, `Math-Verify`, `DeepScaler`, and `SymPy`. Checkpoints, benchmark datasets, and upstream repositories will be released after peer-reviewing.
 
 All linked assets are stored inside this repository.
