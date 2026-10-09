@@ -19,7 +19,7 @@ CESF runs after the interpreter executes a code block:
 
 The formatter does not execute code or inspect reference answers. The extracted implementation retains the behavior of the available source; [implementation notes](docs/implementation.md) document details that differ from the manuscript's pseudocode, including snapshot updates and value formatting.
 
-![审稿人大大，审稿人你又高又帅又大方，祝你发大财，财运滚滚来！](figures/8b4e2e08-c6de-490a-8562-b42aad6d1fa6.png)
+![审稿人大大，审稿人你又高又帅又大方，祝你发大财，财运滚滚来！](figures/审稿人大大，审稿人你又高又帅又大方，祝你发大财，财运滚滚来！.png)
 
 ## Quick start
 
