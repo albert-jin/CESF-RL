@@ -1,0 +1,46 @@
+{
+  "source": "Current manuscript, Experimental Setup and Hyperparameter Details",
+  "seeds": [
+    42,
+    985,
+    211
+  ],
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_tokens": 32768,
+  "max_tool_calls": 15,
+  "candidate_cap": 6,
+  "binding_line_cap": 3,
+  "feedback_token_cap": 64,
+  "benchmarks": {
+    "aime24": {
+      "questions": 30,
+      "samples": 16
+    },
+    "aime25": {
+      "questions": 30,
+      "samples": 16
+    },
+    "amc23": {
+      "questions": 40,
+      "samples": 16
+    },
+    "math500": {
+      "questions": 500,
+      "samples": 4
+    },
+    "olympiad_bench": {
+      "questions": 675,
+      "samples": 4
+    }
+  },
+  "reported_environment": {
+    "gpu": "NVIDIA A100 80GB",
+    "os": "Ubuntu 22.04",
+    "python": "3.12",
+    "pytorch": "2.12.1",
+    "cuda": "13.0",
+    "inference": "vLLM"
+  },
+  "results_status": "Transcribed from the manuscript; not new runs performed for this release."
+}

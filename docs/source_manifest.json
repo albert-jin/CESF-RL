@@ -1,0 +1,86 @@
+{
+  "main_frozen_commit": "b08b34f7952a8ed55eeaaf5b8982e6db3a3aceda",
+  "ablation_frozen_commit": "a03a38c5c4784832a21a451fe0760a6ed0a84aab",
+  "notes": "Core execution_state.py is byte-identical to the archived source. Evaluation runners are adapted for repository paths and the current manuscript protocol. Seed and sample count must be supplied; the paper launcher supplies them. No accuracy experiments were rerun during release preparation.",
+  "files": [
+    {
+      "file": "cesf/execution_state.py",
+      "source_filename": "execution_state.py",
+      "source_sha256": "3c6c1bf3a91e2d2495e2276d2b9d4d965af880fbb423b7c60f84b8fa55a8f620",
+      "release_sha256": "3c6c1bf3a91e2d2495e2276d2b9d4d965af880fbb423b7c60f84b8fa55a8f620",
+      "adaptations": 0
+    },
+    {
+      "file": "cesf/ablation_feedback.py",
+      "source_filename": "ablation_feedback.py",
+      "source_sha256": "455da7bf26018fe35ff7307a62d1ab2d912ac055cfeaabe9a9fe7e57c2d627ae",
+      "release_sha256": "ac0564ad18cf465dc13ceef16bc6ba07e93255488214d7a45a4ad0ea7b5270fc",
+      "adaptations": 1
+    },
+    {
+      "file": "reproduction/run_paired.py",
+      "source_filename": "run_voc.py",
+      "source_sha256": "80a5bb40ce29735cac8454940cbc4384b508bcb7b023b585c247c879cb8c3678",
+      "release_sha256": "fde3fcd1e4e09de8ad2f443f6a2667875d27de285ef654aab9398d3a5fb9a1f3",
+      "adaptations": 9,
+      "adaptation_note": "Repository-relative imports and current paper protocol; see implementation.md."
+    },
+    {
+      "file": "reproduction/run_ablation.py",
+      "source_filename": "run_ablation.py",
+      "source_sha256": "449d190ac7a0a42717a584329384c9e1151440c742e3106154e8562304ec90b7",
+      "release_sha256": "c5f3e7dcca9679c232d9fb2c0d7547849bd546ec4b0aa21e273a177ca726c2d8",
+      "adaptations": 9,
+      "adaptation_note": "Repository-relative imports and current paper protocol; see implementation.md."
+    },
+    {
+      "file": "reproduction/tool_worker.py",
+      "source_filename": "tool_worker.py",
+      "source_sha256": "97337820989aeaf801ff731428371dd4efef377d1463b9480d4d638ee74701b1",
+      "release_sha256": "2a0fecf123d88a9cd605f1f6c90517124902296ab159fac306cc718d333f0db2",
+      "adaptations": 2,
+      "adaptation_note": "Repository-relative imports and current paper protocol; see implementation.md."
+    },
+    {
+      "file": "reproduction/tool_worker_ablation.py",
+      "source_filename": "tool_worker_ablation.py",
+      "source_sha256": "f8f4d0c173b10f5250aed4c09a88bed482f4936d1ed1c818162cfe5ee6821557",
+      "release_sha256": "652c345a3ddb90c00460302b8227591151ff2df1c0eaa79ec8095684fce0b7a3",
+      "adaptations": 2,
+      "adaptation_note": "Repository-relative imports and current paper protocol; see implementation.md."
+    },
+    {
+      "file": "reproduction/summarize_paired.py",
+      "source_filename": "summarize_state.py",
+      "source_sha256": "0176fcbe6206eb7f9c7b42359860282ba15a3055821cab281b1fe46c47855a5d",
+      "release_sha256": "8d669f6d404a1cb2fbbfef5ca7ad93a1c3ebb44be6044a17be9acc5430e4eb50",
+      "adaptations": 0,
+      "adaptation_note": "Repository-relative imports and current paper protocol; see implementation.md."
+    },
+    {
+      "file": "reproduction/summarize_ablation.py",
+      "source_filename": "summarize_ablation.py",
+      "source_sha256": "90539cba29032ff45f279e7a1dbb2ec4a31c8526e1c989840cf5b80d9f8bfa59",
+      "release_sha256": "fc43f843dfa5eb48a98bbc9d44e1fc90bc7c1f2de06f5f9465be85def3a5700f",
+      "adaptations": 0,
+      "adaptation_note": "Rewritten summary supports every question/sample pair and does not require a separate final-answer audit."
+    },
+    {
+      "file": "tests/runner_smoke.py",
+      "source_filename": "test_state_runner.py",
+      "source_sha256": "959c7e3ad791757d32a42b3ebe900c911831ed7e67bdc5e155a9c5e3227d6b38",
+      "release_sha256": "d6e29020c2f2a2d111c905ab71f715cb593510a3e862ddad5ab039229ca35b99",
+      "adaptations": 3
+    }
+  ],
+  "manuscript_sources": [
+    {
+      "file": "sections/05_experiments.tex",
+      "sha256": "6e2924cb2c3c355c9d2d745714e2c3a7cdd437f169ca4e4e2d14423cb57f83d1"
+    },
+    {
+      "file": "sections/10_appendix.tex",
+      "sha256": "344c8c06cedcd5b9f4cea02a467e8d7da17379c50e15ad4def8ac55466974c37"
+    }
+  ]
+}
